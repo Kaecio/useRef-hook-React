@@ -11,5 +11,5 @@ Ao usar o useRef para criar uma referência, você pode armazenar um valor que p
 Quando é usando um onChange na tag input, por exemplo, a cada inserção de dados no input, a página será renderizada.
 
 Ao combinar o useRef dentro do useEffect, passando a chamada da API dentro de função de setTimeout do JavaScript, podemos setar um tempo dentro da função de setTimeout e quando 
-for digitado a busca no campo input, ele só chamará a API deposi do tempo que foi determinado  
-dentro da função setTimeout, fazendo com que a tela só seja renderizada quano a função for chamada.
+for digitado a busca no campo input, ele só chamará a API depois do tempo que foi determinado  
+dentro da função setTimeout, fazendo com que a tela só seja renderizada quando a função for chamada.
